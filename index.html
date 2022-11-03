@@ -1,60 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NewFriends</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-  
+    <div class="inside">
+        <div class="loader">
+            <img src="/logo.png" width="150px">
+        </div>
+    </div>
+
     <div class="main">
 
-            <div class="navbar">
-                <div class="logo">
-                    <img src="/logo.png" width="150px">
-                </div>
-                <div class="nav">
-                    <ul>
-                        <li><a href="#">Features</a></li>
-                        <li><a href="#">How it works</a></li>
-                        <li><a href="#">Privacy</a></li>
-                    </ul>
-                </div>
-                <div class="login">
-                    <button id="log">Log in</button>
-                    <button id="download">Download App</button>
-                </div>
-                <button id="hamburger" type="button"><i class="ri-menu-line"></i></button>
+        <div class="navbar">
+            <button id="hamburger" type="button"><i class="ri-menu-line"></i></button>
+            <div class="logo">
+                <img src="/logo.png" width="150px">
             </div>
-            
-            
-            <div class="container">
-               
-                <div class="content">
-                    <div class="menu">
-                        <ul>
-                            <li><a id="fn" href="">Features</a></li>
-                            <li><a href="">How it works</a></li>
-                            <li><a href="">Privacy</a></li>
-                            
-                        </ul>
-                    </div>
-                    <h1>Make<br>New Friends</h1>
-                    <p>Socially is a new social media plateform to make new friends online in the world.<br>Now let's explore all its amazing Features.</p>
-                    <button id="join">Join Now</button>
-                </div>
-                <div class="model">
-                    <img src="/pic.png">
-                    <button id="download2">Download App</button>
-                </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">How it works</a></li>
+                    <li><a href="#">Privacy</a></li>
+                </ul>
             </div>
-            
+            <div class="login">
+                <button id="log">Log in</button>
+                <button id="download">Download App</button>
+            </div>
         </div>
 
-        <script src="script.js"></script>
-    </body>
-    </html>
+
+        <div class="container">
+
+            <div class="content">
+                <div class="menu">
+                    <ul>
+                        <li><a id="fn" href="">Features</a></li>
+                        <li><a href="">How it works</a></li>
+                        <li><a href="">Privacy</a></li>
+
+                    </ul>
+                </div>
+                <h1>Make<br>New Friends</h1>
+                <p>Socially is a new social media plateform to make new friends online in the world.<br>Now let's
+                    explore all its amazing Features.</p>
+                <button id="join">Join Now</button>
+            </div>
+            <div class="model">
+                <img src="/pic.png">
+                <button id="download2">Download App</button>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.6.1/jquery.lettering.min.js" integrity="sha512-VJ/iYbiu1eJ6yLimfTi65t2R9TFcG5D9X8ZCfbbEFhTfPnKJh8byoKXEawi5ScJZBYL1eiirL1+MczZDx0Tz9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/textillate/0.4.0/jquery.textillate.min.js" integrity="sha512-0bHMhYsdpiur1bT84kDH4D7cpxFQ9O7uA5yxVAqWC87h552Xt0swX4M+ZlXMKE8oPVRIJ5lAwXWO2UWeDwJJOw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js" integrity="sha512-gmwBmiTVER57N3jYS3LinA9eb8aHrJua5iQD7yqYCKa5x6Jjc7VDVaEA0je0Lu0bP9j7tEjV3+1qUm6loO99Kw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
